@@ -12,3 +12,4 @@ docker==5.0.3
 
 # Now go ahead and install the rest of what requirements.txt says:
 -r requirements.txt
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
